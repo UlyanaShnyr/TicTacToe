@@ -4,12 +4,10 @@
   box-sizing: border-box;
 }
 
-#board{
+#box{
   display: flex;
   width: 300px;
   flex-wrap: wrap;
-  
-  
 }
 
 .square{
@@ -20,6 +18,7 @@
   color:white;
   text-align: center;
   line-height:100px;
+  font-size: 50px;
 
  
 }
@@ -31,7 +30,7 @@
   flex-direction: column;
 }
 
-#head{
+#head, #winner{
   font-size: 25px;
   padding: 15px;
 }

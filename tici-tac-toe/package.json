@@ -2,7 +2,7 @@
   "name": "tici-tac-toe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ulyanashnyr.github.io/TicTacToe/build/",
+  "homepage": "https://github.com/UlyanaShnyr/TicTacToe/public/",
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
@@ -12,7 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
+    "predeploy":"npm run build",
     "deploy": "gh-pages -d public",
     "eject": "react-scripts eject"
   },
